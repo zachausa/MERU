@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  color: gray;
+  font-weight: 300;
+}
+
+/* Nav Header */
+#nav-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 47px;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 900;
+}
+
+#nav-header > span {
+
+ font-family: Arial, sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 14px 10px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+
+#nav-header a, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-header a.active {
+  font-weight: bold;
+}
+
+/* Hero poster */
+#climb {
+  background-image: url(http://www.jimmychin.com/data/photos/875_1r20080905_meru_2304.jpg);
+  height: 258px;
+  /*  "no need due to coverbackground-repeat: no-repeat; */
+  background-size: cover;
+  /*  "no need this is covered"  margin: 0 auto;  */
+  border-radius:35px;
+}
+
+/* Text narrative */
+.narrative {
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: Arial
+}
+
+.infocols {
+   margin-top: 25px;
+  font-size: 16px;
+  font-family: Arial;
+  margin-left: -15px;
+}
+
+/* YouTube player iFrame */
+#ytplayer {
+  margin-top: 25px;
+  width: 100%;
+  height: 270px;
+
+}
+
+.col-center {  
+  display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+
+}
+.row-centered {
+    text-align:center;
+    padding-left: 114px;
+}
+
+/* Horizontal image gallery */
+.gallery {
+  max-width: 1140px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.gallery {
+  padding: 0;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.gallery img {
+  width: 90%;
+}
+
+.gallery::-webkit-scrollbar { 
+  display: none; 
+}
+
+.bottom {
+  margin-bottom: 10px;
+}
+
